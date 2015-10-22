@@ -17,4 +17,4 @@ Example of exploiting a application with a readable `/.git/*`
 
 ` php gitrip.php http://localhost:8080/.git/index build`
 
-- The script has now retrived the git index, used the data to collect and download all the git object files. The object files have then been converted to their original files. The foreign repo is now cloned locally and the private data is leaked.
+- The script has now retrieved the git index, used the data to collect and download all the git object files. The object files have then been converted to their original files. The foreign repo is now cloned locally and the private data is leaked.
